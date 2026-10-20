@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>readme.md</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><ul>
+<li></li>
+</ul>
+<h2 id="architectural-design-patterns-—-practice-class"><em>Architectural Design Patterns — Practice Class</em></h2>
+<ul>
+<li><strong>Question 1 — What a proper architecture gives you?</strong>
+<ul>
+<li>To change one small thing, like the error text, developer must read 600 lines of server, JSON, SharedPreferences and UI code together. One class has many reasons to change. This breaks the Single Responsibility Principle.</li>
+<li>For example, to just test out only the form validation in login page, developer must launch whole activity on an emulator. Developer cannot change the server for a fake one, because server code is also inside the activity file.</li>
+<li>If the server changes its JSON format, developer must edit the same file which also holds the UI design, by doing that I can easily break the UI whenever I have to change the server code, for instance.</li>
+</ul>
+</li>
+<li><strong>Question 2 — Starting from nothing</strong>
+<ul>
+<li>First of all, developer should understand the app and its requirements. This must be done before choosing any pattern, because pattern depends on the requirements.</li>
+<li>Developer should learn the pattern before using one. The better developer understands it, the better he can use it.</li>
+<li>Developer should separate database and server out of Activities into repos.</li>
+</ul>
+</li>
+</ul>
+</div>
+</body>
+
+</html>
